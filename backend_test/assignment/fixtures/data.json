@@ -1,0 +1,78 @@
+
+[
+  {
+    "model": "assignment.Users",
+    "pk": "W012A3CDE",
+    "fields": {
+      "id": "W012A3CDE",
+      "real_name": "Egon Spengler",
+      "tz": "America/Los_Angeles"
+    }
+  },
+  {
+    "model": "assignment.ActivityPeriod",
+    "pk": 1,
+    "fields": {
+      "start_time": "Feb 1 2020  1:33PM",
+      "end_time": "Feb 1 2020 1:54PM",
+      "user_id": "W012A3CDE"
+    }
+  },
+  {
+    "model": "assignment.ActivityPeriod",
+    "pk": 2,
+    "fields": {
+     	"start_time": "Mar 1 2020  11:11AM",
+        "end_time": "Mar 1 2020 2:00PM",
+        "user_id": "W012A3CDE"
+    }
+  },
+  {
+    "model": "assignment.ActivityPeriod",
+    "pk": 3,
+    "fields": {
+      "start_time": "Mar 16 2020  5:33PM",
+      "end_time": "Mar 16 2020 8:02PM",
+      "user_id": "W012A3CDE"
+    }
+  },
+  {
+    "model": "assignment.Users",
+    "pk": "W07QCRPA4",
+    "fields": {
+      "id": "W07QCRPA4",
+      "real_name": "Glinda Southgood",
+      "tz": "Asia/Kolkata"
+    }
+  },
+  {
+    "model": "assignment.ActivityPeriod",
+    "pk": 4,
+    "fields": {
+      "start_time": "Feb 1 2020  1:33PM",
+      "end_time": "Feb 1 2020 1:54PM",
+      "user_id": "W07QCRPA4"
+    }
+  },
+  {
+    "model": "assignment.ActivityPeriod",
+    "pk": 5,
+    "fields": {
+     	"start_time": "Mar 1 2020  11:11AM",
+        "end_time": "Mar 1 2020 2:00PM",
+        "user_id": "W07QCRPA4"
+    }
+  },
+  {
+    "model": "assignment.ActivityPeriod",
+    "pk": 6,
+    "fields": {
+      "start_time": "Mar 16 2020  5:33PM",
+      "end_time": "Mar 16 2020 8:02PM",
+      "user_id": "W07QCRPA4"
+    }
+  }
+
+
+
+]
