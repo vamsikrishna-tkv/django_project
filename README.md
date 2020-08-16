@@ -44,6 +44,12 @@ For running the API go to the app directory
 >python manage.py migrate
 
 
+** Command for loading dummydata **
+
+Json file for initial data loading is in the path ```assignment/fixtures/data.json```
+ 
+> python manage.py loaddata data
+
 **Command to run the server in localhost**
 > python manage.py runserver localhost:8080
 
