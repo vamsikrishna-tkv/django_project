@@ -21,6 +21,7 @@ from rest_framework import routers
 
 router = routers.DefaultRouter()
 router.register(r'users', views.userList) # Adding the end point users/ to the restAPI
+router.register(r'activity', views.ActivityList)
 
 urlpatterns = [
     path('', include(router.urls)),

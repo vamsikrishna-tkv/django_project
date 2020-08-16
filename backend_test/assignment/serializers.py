@@ -8,6 +8,7 @@ class ActivityPeriodSerializer(serializers.HyperlinkedModelSerializer):
         fields =[
             'start_time',
             'end_time',
+            'id',
         ]
 
 class UsersSerializer(serializers.HyperlinkedModelSerializer):

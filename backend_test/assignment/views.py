@@ -19,4 +19,7 @@ class userList(viewsets.ModelViewSet):
     serializer_class = UsersSerializer
 
 
+class ActivityList(viewsets.ModelViewSet):
+    queryset = ActivityPeriod.objects.all()
+    serializer_class = ActivityPeriodSerializer
 
