@@ -44,7 +44,7 @@ For running the API go to the app directory
 >python manage.py migrate
 
 
-** Command for loading dummydata **
+**Command for loading dummydata**
 
 Json file for initial data loading is in the path ```assignment/fixtures/data.json```
  
